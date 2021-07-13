@@ -4,14 +4,16 @@
     "version": "1.0.0",
     "private": false,
     "description": "Example on how to use mocha to run tests in watch mode, with node.js and TypeScript",
-    "repository":"",
+    "repository": "",
     "license": "Apache-2.0",
     "directories": {
         "test": "test"
     },
     "devDependencies": {
+        "@types/chai": "^4.2.18",
         "@types/mocha": "^8.2.2",
         "@types/node": "^15.6.2",
+        "chai": "^4.3.4",
         "mocha": "^8.4.0",
         "ts-node": "^10.0.0",
         "typescript": "^4.3.2"
